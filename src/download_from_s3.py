@@ -5,7 +5,7 @@ import boto3
 from dotenv import dotenv_values
 
 BUCKET_NAME = 'pabd24'
-YOUR_ID = '9'
+YOUR_ID = '8'
 CSV_PATH = ['data/raw/1_2024-05-16_19-11.csv',
             'data/raw/2_2024-05-16_19-11.csv',
             'data/raw/3_2024-05-16_19-11.csv']
