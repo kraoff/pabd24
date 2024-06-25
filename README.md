@@ -33,4 +33,6 @@ python src/upload_to_s3.py -i data/raw/file.csv
 gunicorn: http://95.174.93.205:8000
 
 ### Docker
+```sh
 docker run kraoff/pabd24:latest
+```  
