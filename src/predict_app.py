@@ -12,7 +12,7 @@ from joblib import load
 # from utils import (predict_cpu_bounded, predict_cpu_multithread,
 #                    predict_io_bounded)
 
-MODEL_SAVE_PATH = 'models/lin_reg_v1.joblib'
+MODEL_SAVE_PATH = 'models/catboost_v1.joblib'
 
 app = Flask(__name__)
 CORS(app)
