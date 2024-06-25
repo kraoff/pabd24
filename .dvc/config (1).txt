@@ -1,0 +1,6 @@
+[core]
+    remote = cloudru
+['remote "cloudru"']
+    url = s3://pabd24
+    endpointurl = https://s3.cloud.ru
+    profile = cloudru
