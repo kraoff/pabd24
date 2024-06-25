@@ -29,3 +29,8 @@ python src/parse_cian.py
 ```sh
 python src/upload_to_s3.py -i data/raw/file.csv 
 ```  
+Демонстрация
+gunicorn: http://95.174.93.205:8000
+
+Docker
+docker run kraoff/pabd24:latest
