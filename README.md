@@ -34,5 +34,10 @@ gunicorn: http://95.174.93.205:8000
 
 ### Docker
 ```sh
+#latest
 docker run kraoff/pabd24:latest
 ```  
+```sh
+#catboost
+docker run kraoff/pabd24:catboost
+``` 
